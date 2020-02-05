@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "teamcitytest": "ng test --reporters=teamcity --browsers=ChromeHeadless"
+    "teamcitytest": "ng test --reporters=teamcity --watch false --browsers=ChromeHeadless"
   },
   "private": true,
   "dependencies": {
